@@ -17,3 +17,7 @@ To Build you can use a programm named 'just' or copy the needed instructions fro
 ```bash
 pip install build
 ```
+
+
+# Source:
+[Source](https://github.com/Faiataiga/mc-uuid-check)

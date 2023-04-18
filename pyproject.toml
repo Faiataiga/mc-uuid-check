@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mc-uuid-check"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
 	{ name='Faiataiga', email='faiataiga@protonmail.com'},
 ]
@@ -18,9 +18,11 @@ dependencies = [
 	"requests"
 ]
 classifiers = [
-	"Programming Language :: Pyhon :: 3",
+	"Programming Language :: Python :: 3",
 	"Operating System :: OS Independent",
-	"License :: OSI Approved :: GNU General Public License v3.0 only"
+	"Environment :: Console",
+	"License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+	"Topic :: Utilities"
 ]
 
 
