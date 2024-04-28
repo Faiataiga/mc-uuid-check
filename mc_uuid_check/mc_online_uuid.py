@@ -13,9 +13,7 @@ def get_uuid_api(username):
         exit(1)
     else:
         uuid = json.dumps(response.json())
-        if uuid[0] == "-":
-            uuid = uuid[1:]
-        uuid_hyphen = uuid[:8] + '-' + uuid[8:12] + '-' + uuid[12:16] + '-' + uuid[16:20] + '-' + uuid[20:]
+        uuid_hyphen = uuid[:16] + '-' + uuid[16:20] + '-' + uuid[20:24] + '-' + uuid[24:28] + '-' + uuid[28:]
         return uuid_hyphen
         #return json.dumps(response.json())
 
